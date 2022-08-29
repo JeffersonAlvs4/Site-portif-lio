@@ -1,3 +1,8 @@
+body{
+	padding: none;
+	margin: 0 0 0 0;
+}
+
 .navbar{
 	padding: 30px;
 	width: 940px;
@@ -8,4 +13,15 @@
 .navbar h3{
 	display: inline-block;
 	margin: 0 0 0 3em;
+}
+
+.navbar a{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+	Text-transform: uppercase;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	color: #8B008B;
 }
